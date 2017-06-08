@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/icons_hand"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile_logo"
+            android:title="profile" />
+
+        <item
+            android:id="@+id/nav_buy"
+            android:icon="@drawable/buy"
+            android:title="Buy" />
+        <item
+            android:id="@+id/nav_sell"
+            android:icon="@drawable/sell"
+            android:title="Sell" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+    </group>
+
+
+</menu>

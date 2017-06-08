@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rushi.e_agree.Register_page">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Register"
+        android:textStyle="normal"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="90dp"
+        android:text="Firstname:"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:hint="Firstname"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/user_firstname"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="145dp"
+        android:text="Lastname:"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="165dp"
+        android:hint="Lastname"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/user_lastname"
+        />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="200dp"
+        android:text="Email:"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="e-mail"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:id="@+id/user_email"
+        />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="255dp"
+        android:text="Pasword:"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="25dp"
+        android:hint="password"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:id="@+id/user_password"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="310dp"
+        android:text="Confirm Password:"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="25dp"
+        android:hint="password"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:id="@+id/user_cpassword"/>
+
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="365dp"
+        android:text="Contact No:"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:hint="mobile no"
+        android:layout_marginTop="385dp"
+        android:layout_marginLeft="25dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:id="@+id/user_mobileno"
+        />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="120dp"
+        android:background="@color/colorPrimary"
+        android:text="Register"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:onClick="registeration"
+        />
+
+</RelativeLayout>

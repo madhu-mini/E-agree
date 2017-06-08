@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/buy_row"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="#FFB8">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="#CE93D8"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+        android:text="Name:"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="25dp"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Price:"
+        android:layout_marginLeft="25dp"
+        android:textColor="#000000"
+        android:textSize="25dp"
+
+        />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#000000"
+        android:textSize="25dp"
+
+        android:text="Quantity:" />
+
+    <TextView
+        android:id="@+id/mobileno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobileno:"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#000000"
+        android:textSize="25dp"
+
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:text="Email:" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:text="Address:" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="240dp"
+        app:srcCompat="@drawable/ic_menu_gallery"
+        android:onClick="sendEmail"
+        />
+
+</RelativeLayout>
+</android.support.v7.widget.CardView>
